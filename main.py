@@ -35,8 +35,9 @@ def main():
         random_number = random.randint(0,9999)
         #random variable between 0 - 9999 too serve as a unique identifier for when we
         # take multiple actions against a single IP, we have an distinguisher between those actions
-        print(f"TP: {ip_address}, Action:{action}, Random: {random_number}")
+        print(f"IP: {ip_address}, Action:{action}, Random: {random_number}")
         #print ip address of the packet analyzed, the action taken against ip, and random unique iditenifier number
     
-    if __name__ == "__main__":
+    
+if __name__ == "__main__":
         main()
